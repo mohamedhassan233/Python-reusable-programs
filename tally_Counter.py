@@ -17,7 +17,7 @@ class Counter():
         self._value = 0
 
 tally = Counter()
-tally.reset()
+tally.reset_counter()
 tally.click()
 tally.click()
 

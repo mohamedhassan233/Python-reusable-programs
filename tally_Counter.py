@@ -21,5 +21,5 @@ tally.reset()
 tally.click()
 tally.click()
 
-result = tally.getValue()
+result = tally.get_value()
 

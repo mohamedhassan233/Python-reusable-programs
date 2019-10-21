@@ -75,3 +75,5 @@ class VendingMachine() :
                     self.money+=search_item(self.selection)['price']
                     return "Vending %s with %.2f change."%(search_item(self.selection)['name'],change)
 
+
+         

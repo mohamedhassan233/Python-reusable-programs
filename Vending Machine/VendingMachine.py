@@ -2,7 +2,6 @@
 # such as snacks and beverages to customers automatically,
 # after the customer inserts currency or credit into the machine.
 
-
 items = [{'name': "Smarties", 'code': "A01", 'quantity': 10, 'price': 0.60},
          {'name':"Caramac Bar", 'code':"A02", 'quantity':5, 'price':0.60},
          {'name':"Dairy Milk", 'code':"A03", 'quantity':1, 'price':0.65},
@@ -75,6 +74,4 @@ class VendingMachine() :
                     search_item(self.selection)['quantity']-=1
                     self.money+=search_item(self.selection)['price']
                     return "Vending %s with %.2f change."%(search_item(self.selection)['name'],change)
-
-
 
